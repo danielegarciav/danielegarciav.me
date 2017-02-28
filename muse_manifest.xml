@@ -1,9 +1,9 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="danielegarciav.me" resolutions="1x" timestamp="1488294896951">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="danielegarciav.me" resolutions="1x" timestamp="1488296401540">
   <folder name="css">
-    <file name="site_global.css" crc="443350757"/>
-    <file name="master_a-master.css" crc="4234253258" ref="index"/>
-    <file name="index.css" crc="4200324771" ref="index"/>
-    <file name="header-thing.css" crc="3963620098" ref="header-thing"/>
+    <file name="site_global.css" crc="470240097"/>
+    <file name="master_a-master.css" crc="88059451" ref="index"/>
+    <file name="index.css" crc="378808937" ref="index"/>
+    <file name="header-thing.css" crc="82270544" ref="header-thing"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:header-thing"/>
@@ -18,8 +18,8 @@
   <folder name="images">
     <file name="blank.gif" crc="4208392903" ref="index"/>
     <file name="daniel-garcia-needs-a-part-time-job-webwhite.svg" crc="3942509908" seo="true" ref="header-thing"/>
-    <file name="daniel garcia needs a part-time job-webwhite_poster_.png" crc="123851841" ref="header-thing"/>
+    <file name="daniel garcia needs a part-time job-webwhite_poster_.png" crc="4011824477" ref="header-thing"/>
   </folder>
-  <file name="index.html" crc="4037347854" seo="true" mt="1488294795445" redirect="true"/>
-  <file name="header-thing.html" crc="311688867" seo="true" mt="1488293279722" redirect="true"/>
+  <file name="index.html" crc="353615564" seo="true" mt="1488296308528" redirect="true"/>
+  <file name="header-thing.html" crc="85774912" seo="true" mt="1488295611266" redirect="true"/>
 </manifest>
