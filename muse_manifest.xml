@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="danielegarciav.me" resolutions="1x" timestamp="1488329637102">
+<manifest alg="2" build="2017.0.0.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="danielegarciav.me" resolutions="1x" timestamp="1488329906478">
   <folder name="assets">
     <file name="herobg.css" crc="410541364" seo="true" mt="1488324129000"/>
     <file name="scriptstuff.js" crc="4264686993" seo="true" mt="1488323431000"/>
@@ -6,7 +6,7 @@
   <folder name="css">
     <file name="site_global.css" crc="470240097"/>
     <file name="master_a-master.css" crc="224357337" ref="index"/>
-    <file name="index.css" crc="262342107" ref="index"/>
+    <file name="index.css" crc="4002520714" ref="index"/>
     <file name="header-thing.css" crc="432007329" ref="header-thing"/>
   </folder>
   <folder name="scripts">
@@ -27,6 +27,6 @@
     <file name="profilepic-lofi-jpg-01.jpg" crc="180285655" ref="header-thing"/>
     <file name="spiral-galaxy.jpg" crc="4200421352" ref="index"/>
   </folder>
-  <file name="index.html" crc="30303202" seo="true" mt="1488329521224" redirect="true"/>
+  <file name="index.html" crc="166883805" seo="true" mt="1488329878798" redirect="true"/>
   <file name="header-thing.html" crc="27754457" seo="true" mt="1488326371671" redirect="true"/>
 </manifest>
