@@ -2,8 +2,18 @@
 <html class="html" lang="en-US">
 
 <head>
+    <script>
+      window.addEventListener("DOMContentLoaded", function(e) {
+        let posterScrollButton = document.getElementById('poster-scroll-button');
+        posterScrollButton.href = "";
+        posterScrollButton.onclick = function() {
+          document.querySelector('#cool-stuff').scrollIntoView({behavior: 'smooth'});
+        };
+      });
+    </script>
   <!-- Start of Async Drift Code -->
-  <script>
+  <!-- <script>
+    return;
     "use strict";
 
   !function() {
@@ -28,31 +38,38 @@
   }();
   drift.SNIPPET_VERSION = '0.3.1';
   drift.load('cbfyuzngxadr');
-  </script>
+  </script> -->
   <!-- End of Async Drift Code -->
 
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-  <meta name="generator" content="2017.0.0.363" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Home</title>
+  <title>Daniel Garcia</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=470240097" />
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=224357337" />
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3982649614" id="pagesheet" />
-  <!-- JS includes -->
-  <!--[if lt IE 9]>
-  <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
-  <![endif]-->
-  <!--custom head HTML-->
-  <script src="assets/scriptstuff.js"></script>
-  <link rel="stylesheet" href="assets/herobg.css">
+  <link rel="stylesheet" type="text/css" href="css/main-page.css" />
 </head>
+
 <body>
-  <section>
-    <h1>
-      Hello there!
-    </h1>
-  </section>
+  <div class="poster-div">
+    <section class="poster-text-container">
+      <h1 class="poster-text poster-title">
+        Daniel here!
+      </h1>
+      <span class="poster-text poster-subtitle">
+        I like coding pretty, powerful things.
+      </span>
+      <button class="poster-scroll-button" id="poster-scroll-button">
+        Come take a look at what I've done!
+      </button>
+    </section>
+  </div>
+  <div class="cool-stuff-div">
+    <section>
+      <h1 id="cool-stuff">
+        Wow, look! Nothing!
+      </h1>
+    </section>
+  </div>
 </body>
+
 </html>
