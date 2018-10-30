@@ -90,6 +90,13 @@ span.poster-text {
     border-color: rgba(255, 255, 255, 0.8);
 }
 
+.reset-a, .reset-a:hover, .reset-a:visited, .reset-a:focus, .reset-a:active {
+    text-decoration: none;
+    color: white !important;
+    outline: 0;
+    cursor: default;
+  }
+
 .cool-stuff-div {
 	padding: 1em 0;
 }
@@ -120,7 +127,7 @@ a:link {
 
 a:visited {
 	color: #ADBFD6;
-    text-decoration: inherit;
+	text-decoration: inherit;
 }
 
 a:hover {

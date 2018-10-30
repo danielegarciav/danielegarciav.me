@@ -4,8 +4,9 @@
 <head>
     <script>
       window.addEventListener("DOMContentLoaded", function(e) {
+        let posterScrollLink = document.getElementById('poster-scroll-link');
         let posterScrollButton = document.getElementById('poster-scroll-button');
-        posterScrollButton.href = "";
+        posterScrollLink.href = "javascript:";
         posterScrollButton.onclick = function() {
           document.querySelector('#cool-stuff').scrollIntoView({behavior: 'smooth'});
         };
@@ -58,8 +59,8 @@
       <span class="poster-text poster-subtitle">
         I like coding pretty, powerful things.
       </span>
-      <button class="poster-scroll-button" id="poster-scroll-button" href="#cool-stuff">
-        Come take a look at what I've done!
+      <button class="poster-scroll-button" id="poster-scroll-button">
+        <a class="reset-a" id="poster-scroll-link" href="#cool-stuff">Come take a look at what I've done!</a>
       </button>
     </section>
   </div>
