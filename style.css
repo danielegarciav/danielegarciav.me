@@ -1,0 +1,24 @@
+body {
+  transition-duration: 0.2s;
+}
+
+a:hover {
+  text-decoration: underline dashed;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 32px;
+}
+
+.card a {
+  color: #718096;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.social-link-list a:not(:last-child) {
+  margin-right: 0.25rem;
+}
